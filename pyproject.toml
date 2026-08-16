@@ -8,3 +8,8 @@ dependencies = [
     "google-genai>=2.17.0",
     "python-dotenv>=1.2.2",
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.0",
+]
